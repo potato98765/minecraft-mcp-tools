@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "minecraft-mcp",
+  "version": "${version}",
+  "name": "MCP Tools",
+  "description": "Adds MCP support to Minecraft, to allow AI's to interact with the game",
+  "authors": [
+    "MrPotato"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/project/mcp-tools"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.mrpotato.minecraftmcptools.MinecraftMcpMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": ">=26.1",
+    "java": ">=25"
+  },
+  "suggests": {
+    "fabric-api": "*"
+  }
+}
