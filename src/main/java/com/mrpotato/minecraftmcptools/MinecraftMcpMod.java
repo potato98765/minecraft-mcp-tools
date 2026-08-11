@@ -33,7 +33,7 @@ public class MinecraftMcpMod implements ModInitializer {
     @Override
     public void onInitialize() {
         instance = this;
-        LOGGER.info("Initializing Minecraft Model Context Protocol (MCP) mod for Minecraft 26.2 (Java 25)...");
+        LOGGER.info("Initializing Minecraft Model Context Protocol (MCP)...");
 
         this.configManager = new McpConfigManager();
         this.mcpServer = new McpServer(configManager);
