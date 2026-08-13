@@ -148,6 +148,3 @@ async def main():
 
 asyncio.run(main())
 ```
-
-
-**More info can be found on the GitHub wiki of the mod, by clicking [here](https://github.com/potato98765/minecraft-mcp-tools/wiki)**
